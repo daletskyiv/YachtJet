@@ -1,0 +1,298 @@
+:root {
+  --main-color: #fbfbfb;
+  --dark-color: #040306;
+  --gray-color: #0e1823;
+  --green-color: #1b414b;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: var(--main-color);
+  background-color: var(--gray-color);
+  font-size: 14px;
+}
+
+/* HEADER*/
+
+.top-section {
+  background-color: var(--main-color);
+}
+
+.page-logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: var(--green-color);
+}
+
+.nav-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--main-color);
+  background-color: rgba(27, 65, 75, 0.5);
+  border-radius: 8px;
+  width: 91px;
+  height: 40px;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  background-color: var(--green-color);
+}
+
+/* HERO SECTION*/
+
+.main-title {
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.main-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.main-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  background-color: var(--green-color);
+}
+
+/*ADVANTAGES SECTION*/
+
+.advantages-section {
+  background-color: var(--main-color);
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--green-color);
+}
+.advantages-text-top {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--green-color);
+}
+
+.advantages-text-botton {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--dark-color);
+}
+
+.advantages-img {
+}
+.yachts-section {
+}
+.yachts-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--main-color);
+}
+.yacht-list {
+}
+
+.yacht-list-item {
+  background-color: var(--main-color);
+}
+
+.yacht-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--green-color);
+}
+.yacht-type {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
+.yacht-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+.yacht-value {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--dark-color);
+}
+
+.yacht-rent-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+}
+.yacht-joy-section {
+}
+.yacht-joy-list {
+  background-color: var(--green-color);
+}
+.yacht-joy-item {
+}
+.yacht-joy-title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: var(--main-color);
+}
+.yacht-joy-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+}
+.yacht-joy-img {
+}
+.yacht-rent-section {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+}
+
+.yacht-rent-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--main-color);
+}
+
+.review-section {
+}
+.review-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--main-color);
+}
+.review-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--main-color);
+}
+.review-list {
+}
+.review-list-item {
+  background-color: var(--main-color);
+}
+.review-list-img {
+}
+
+.review-list-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: var(--dark-color);
+}
+.review-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+.bottom-setcion {
+  background-color: var(--green-color);
+}
+.main-nav {
+}
+.page-logo-bottom {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: var(--main-color);
+}
+.nav-list {
+}
+.bottom-item {
+  background-color: rgba(251, 251, 251, 0.3);
+}
+.social-list {
+}
+.social-list-item {
+}
