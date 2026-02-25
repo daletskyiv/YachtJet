@@ -14,7 +14,9 @@
 ul,
 ol {
   list-style-type: none;
-  padding: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 h1,
@@ -23,15 +25,18 @@ h3,
 h4,
 h5,
 h6,
-p,
-ul,
-ol {
-  margin: 0;
+p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
+}
+
+button {
   cursor: pointer;
 }
 
@@ -49,6 +54,12 @@ body {
   font-size: 14px;
 }
 
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /* HEADER*/
 
 .top-section {
@@ -56,10 +67,27 @@ body {
 }
 
 .page-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.03em;
   color: var(--green-color);
+}
+
+.main-nav {
+  display: flex;
+  gap: 375px;
+  justify-content: space-between;
+  margin-bottom: 155px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 .nav-list-link {
@@ -84,12 +112,21 @@ body {
 
 /* HERO SECTION*/
 
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1001px;
+  margin-bottom: 180px;
+}
+
 .main-title {
   font-weight: 500;
   font-size: 80px;
   line-height: 1;
   letter-spacing: -0.02em;
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .main-text {
@@ -97,14 +134,22 @@ body {
   font-size: 16px;
   line-height: 1.4;
   text-align: center;
+  width: 597px;
+  margin-bottom: 48px;
 }
 
 .main-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
   letter-spacing: -0.02em;
   background-color: var(--green-color);
+  width: 179px;
+  height: 52px;
+  border-radius: 15px;
 }
 
 /*ADVANTAGES SECTION*/
@@ -140,6 +185,9 @@ body {
 }
 .yachts-section {
 }
+
+/*YACHT SECTION*/
+
 .yachts-title {
   font-weight: 500;
   font-size: 48px;
@@ -149,6 +197,9 @@ body {
   color: var(--main-color);
 }
 .yacht-list {
+}
+
+.yacht-foto {
 }
 
 .yacht-list-item {
@@ -233,6 +284,8 @@ body {
   letter-spacing: -0.02em;
   color: var(--main-color);
 }
+
+/*REVIEW SECTION*/
 
 .review-section {
 }
